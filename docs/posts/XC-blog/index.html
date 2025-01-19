@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Ci Xu">
+<meta name="dcterms.date" content="2025-01-18">
 
-<title>XC Blog</title>
+<title>Blog – XC Blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +25,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,77 +68,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">XC Blog</span>
     </a>
   </div>
@@ -149,7 +91,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -172,149 +114,218 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">XC Blog</h1>
-                      </div>
+    <div class="quarto-title column-body">
+      <h1 class="title">Blog</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">news</div>
+              </div>
+                  </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page-left">
+  <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Ci Xu </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">January 18, 2025</p>
+      </div>
+    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="analysis">analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="code">code <span class="quarto-category-count">(1)</span></div><div class="category" data-category="news">news <span class="quarto-category-count">(3)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
+<section id="hypothesis-testing-a-beginners-guide-to-data-driven-decision-making" class="level3">
+<h3 class="anchored" data-anchor-id="hypothesis-testing-a-beginners-guide-to-data-driven-decision-making">Hypothesis Testing: A Beginner’s Guide to Data-Driven Decision Making</h3>
+<section id="introduction" class="level4">
+<h4 class="anchored" data-anchor-id="introduction"><strong>Introduction</strong></h4>
+<p>In the world of data science and statistics, hypothesis testing is one of the most fundamental techniques for making data-driven decisions. Whether you’re working in business, healthcare, or scientific research, hypothesis testing helps you determine if your observations are the result of a genuine effect or just random chance. In this blog, we’ll break down the concept of hypothesis testing, explain the key steps, and provide practical examples to illustrate its importance.</p>
+<hr>
+</section>
+<section id="what-is-hypothesis-testing" class="level4">
+<h4 class="anchored" data-anchor-id="what-is-hypothesis-testing"><strong>What Is Hypothesis Testing?</strong></h4>
+<p>Hypothesis testing is a statistical method used to evaluate assumptions (hypotheses) about a population parameter based on sample data. The process involves comparing a null hypothesis (a statement of no effect or status quo) with an alternative hypothesis (a statement of effect or change).</p>
+<ul>
+<li><strong>Null Hypothesis (H₀):</strong> Assumes no significant effect or difference exists. For example, “The new drug has no effect on blood pressure.”</li>
+<li><strong>Alternative Hypothesis (Hᵢ):</strong> Represents what you aim to support, such as “The new drug lowers blood pressure.”</li>
+</ul>
+<p>The goal of hypothesis testing is to determine if there is enough evidence in the sample data to reject the null hypothesis in favor of the alternative hypothesis.</p>
+<hr>
+</section>
+<section id="key-concepts-in-hypothesis-testing" class="level4">
+<h4 class="anchored" data-anchor-id="key-concepts-in-hypothesis-testing"><strong>Key Concepts in Hypothesis Testing</strong></h4>
+<ol type="1">
+<li><strong>Significance Level (α):</strong>
+<ul>
+<li>The threshold for deciding whether to reject the null hypothesis.</li>
+<li>Commonly set at 0.05 (5%), meaning there is a 5% chance of rejecting the null hypothesis when it is actually true (Type I error).</li>
+</ul></li>
+<li><strong>P-value:</strong>
+<ul>
+<li>The probability of observing results as extreme as the ones in your sample, assuming the null hypothesis is true.</li>
+<li>If the p-value is less than α, you reject the null hypothesis.</li>
+</ul></li>
+<li><strong>Type I and Type II Errors:</strong>
+<ul>
+<li><strong>Type I Error (α):</strong> Rejecting the null hypothesis when it is true.</li>
+<li><strong>Type II Error (β):</strong> Failing to reject the null hypothesis when it is false.</li>
+</ul></li>
+<li><strong>Test Statistic:</strong>
+<ul>
+<li>A numerical value calculated from the sample data, used to evaluate the hypotheses. Examples include the t-statistic, z-statistic, and chi-square statistic.</li>
+</ul></li>
+</ol>
+<hr>
+</section>
+<section id="steps-in-hypothesis-testing" class="level4">
+<h4 class="anchored" data-anchor-id="steps-in-hypothesis-testing"><strong>Steps in Hypothesis Testing</strong></h4>
+<ol type="1">
+<li><strong>State the Hypotheses:</strong>
+<ul>
+<li>Formulate the null hypothesis (H₀) and the alternative hypothesis (Hᵢ).</li>
+</ul></li>
+<li><strong>Choose the Significance Level (α):</strong>
+<ul>
+<li>Decide on the acceptable probability of making a Type I error (commonly 0.05).</li>
+</ul></li>
+<li><strong>Select the Test and Compute the Test Statistic:</strong>
+<ul>
+<li>Choose the appropriate statistical test based on the data and hypothesis (e.g., t-test, ANOVA, chi-square test).</li>
+<li>Calculate the test statistic using the sample data.</li>
+</ul></li>
+<li><strong>Determine the P-value or Critical Value:</strong>
+<ul>
+<li>Compare the test statistic to the critical value (or calculate the p-value) to evaluate the evidence against H₀.</li>
+</ul></li>
+<li><strong>Make a Decision:</strong>
+<ul>
+<li>If the p-value &lt; α, reject H₀ in favor of Hᵢ. Otherwise, fail to reject H₀.</li>
+</ul></li>
+<li><strong>Draw a Conclusion:</strong>
+<ul>
+<li>Interpret the results in the context of the research question.</li>
+</ul></li>
+</ol>
+<hr>
+</section>
+<section id="example-ab-testing-in-marketing" class="level4">
+<h4 class="anchored" data-anchor-id="example-ab-testing-in-marketing"><strong>Example: A/B Testing in Marketing</strong></h4>
+<p>Imagine you’re a marketing analyst testing whether a new website design increases conversion rates compared to the current design.</p>
+<ol type="1">
+<li><strong>State the Hypotheses:</strong>
+<ul>
+<li>H₀: The new design has no effect on conversion rates.</li>
+<li>Hᵢ: The new design increases conversion rates.</li>
+</ul></li>
+<li><strong>Set the Significance Level (α):</strong>
+<ul>
+<li>Choose α = 0.05.</li>
+</ul></li>
+<li><strong>Collect Data:</strong>
+<ul>
+<li>Randomly assign visitors to either the current design (Group A) or the new design (Group B) and record the conversion rates.</li>
+</ul></li>
+<li><strong>Perform the Test:</strong>
+<ul>
+<li>Use a two-sample t-test to compare the mean conversion rates of the two groups.</li>
+</ul></li>
+<li><strong>Analyze the Results:</strong>
+<ul>
+<li>Suppose the p-value is 0.03. Since 0.03 &lt; 0.05, you reject the null hypothesis.</li>
+</ul></li>
+<li><strong>Conclusion:</strong>
+<ul>
+<li>There is evidence to suggest that the new design increases conversion rates.</li>
+</ul></li>
+</ol>
+<hr>
+</section>
+<section id="types-of-hypothesis-tests" class="level4">
+<h4 class="anchored" data-anchor-id="types-of-hypothesis-tests"><strong>Types of Hypothesis Tests</strong></h4>
+<ol type="1">
+<li><strong>Z-Test:</strong>
+<ul>
+<li>Used for large samples (n &gt; 30) when population variance is known.</li>
+</ul></li>
+<li><strong>T-Test:</strong>
+<ul>
+<li>For small samples (n &lt; 30) or when population variance is unknown.</li>
+</ul></li>
+<li><strong>ANOVA (Analysis of Variance):</strong>
+<ul>
+<li>Compares means across multiple groups.</li>
+</ul></li>
+<li><strong>Chi-Square Test:</strong>
+<ul>
+<li>Tests relationships between categorical variables.</li>
+</ul></li>
+<li><strong>Non-Parametric Tests:</strong>
+<ul>
+<li>Used when data doesn’t meet the assumptions of parametric tests (e.g., Mann-Whitney U test).</li>
+</ul></li>
+</ol>
+<hr>
+</section>
+<section id="common-challenges-in-hypothesis-testing" class="level4">
+<h4 class="anchored" data-anchor-id="common-challenges-in-hypothesis-testing"><strong>Common Challenges in Hypothesis Testing</strong></h4>
+<ol type="1">
+<li><strong>Sample Size:</strong>
+<ul>
+<li>Small sample sizes can reduce the power of the test, increasing the likelihood of Type II errors.</li>
+</ul></li>
+<li><strong>Misinterpreting P-values:</strong>
+<ul>
+<li>A small p-value does not prove the alternative hypothesis; it only suggests strong evidence against the null hypothesis.</li>
+</ul></li>
+<li><strong>Multiple Testing:</strong>
+<ul>
+<li>Conducting multiple tests increases the risk of Type I errors. Adjustments like the Bonferroni correction are often necessary.</li>
+</ul></li>
+<li><strong>Confounding Variables:</strong>
+<ul>
+<li>Failure to control for confounding factors can lead to biased results.</li>
+</ul></li>
+</ol>
+<hr>
+</section>
+<section id="conclusion" class="level4">
+<h4 class="anchored" data-anchor-id="conclusion"><strong>Conclusion</strong></h4>
+<p>Hypothesis testing is a powerful tool for validating claims and making informed decisions based on data. By following a structured approach and understanding its key concepts, you can confidently apply hypothesis testing to solve real-world problems. Remember, hypothesis testing is not about proving a hypothesis true; it’s about assessing the evidence to make informed conclusions.</p>
+<hr>
+</section>
+<section id="further-reading-and-resources" class="level4">
+<h4 class="anchored" data-anchor-id="further-reading-and-resources"><strong>Further Reading and Resources</strong></h4>
+<ul>
+<li><a href="https://www.khanacademy.org/">Understanding Hypothesis Testing (Khan Academy)</a></li>
+<li><em>Introduction to the Practice of Statistics</em> by Moore, McCabe, and Craig</li>
+<li>Python Libraries: SciPy, statsmodels for hypothesis testing</li>
+</ul>
+<p>If you’re eager to practice hypothesis testing, start with simple datasets like those on Kaggle or UCI Machine Learning Repository. Happy testing!</p>
 
 
+</section>
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="news,code,analysis" data-listing-date-sort="1737187200000" data-listing-file-modified-sort="1737248289883" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
-<div class="thumbnail">
-<p><a href="./posts/post-with-code/index.html" class="no-external"></a></p><a href="./posts/post-with-code/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/post-with-code/image.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/post-with-code/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/post-with-code/index.html" class="no-external">Post With Code</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/post-with-code/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
-news
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('code'); return false;">
-code
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('analysis'); return false;">
-analysis
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/post-with-code/index.html" class="no-external">This is a post with executable code.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/post-with-code/index.html" class="no-external">
-<div class="listing-date">
-Jan 18, 2025
-</div>
-<div class="listing-author">
-Harlow Malloc
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="news" data-listing-date-sort="1737187200000" data-listing-file-modified-sort="1737248731717" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="891">
-<div class="thumbnail">
-<p><a href="./posts/XC-blog/index.html" class="no-external"></a></p><a href="./posts/XC-blog/index.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/XC-blog/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/XC-blog/index.html" class="no-external">Blog</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/XC-blog/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
-news
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/XC-blog/index.html" class="no-external">In the world of data science and statistics, hypothesis testing is one of the most fundamental techniques for making data-driven decisions. Whether you’re working in…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/XC-blog/index.html" class="no-external">
-<div class="listing-date">
-Jan 18, 2025
-</div>
-<div class="listing-author">
-Ci Xu
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="news" data-listing-date-sort="1736928000000" data-listing-file-modified-sort="1737247334769" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="34">
-<div class="thumbnail">
-<p><a href="./posts/welcome/index.html" class="no-external"></a></p><a href="./posts/welcome/index.html" class="no-external">
-<p class="card-img-top"><img src="posts\welcome\thumbnail.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/welcome/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/welcome/index.html" class="no-external">Welcome To My Blog</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/welcome/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
-news
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/welcome/index.html" class="no-external">This is the first post in a Quarto blog. Welcome!</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/welcome/index.html" class="no-external">
-<div class="listing-date">
-Jan 15, 2025
-</div>
-<div class="listing-author">
-Tristan O’Malley
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
