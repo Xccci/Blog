@@ -1,3 +1,10 @@
+---
+title: "Welcome To My Blog"
+author: "Tristan O'Malley"
+date: "2025-01-15"
+categories: [news]
+---
+
 ### Hypothesis Testing: A Beginner's Guide to Data-Driven Decision Making
 
 #### **Introduction**
